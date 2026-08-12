@@ -1,5 +1,4 @@
-### ExcelLa: Static Limit Analysis Toolkit<img width="1103" height="678" alt="Fig1" src="https://github.com/user-attachments/assets/de24eded-cf78-4b17-908b-2774eb896653" />
-
+### ExcelLa: Static Limit Analysis Toolkit
 
 ExcelLa is a macro-enabled Excel application built for the static limit analysis of masonry structures. Use it to evaluate the structural stability of 2D masonry curved geometry. The tool formulates the equilibrium conditions as a linear programming problem and solves them directly within the spreadsheet environment.
 
@@ -17,12 +16,17 @@ You must configure Excel with two specific solvers before running the analysis.
 8. Select the file to load the OpenSolver add-in into your Excel session. Make sure both solvers are checked in the Add-ins dialog.
 
 <img width="1103" height="678" alt="Fig1" src="https://github.com/user-attachments/assets/95bb1d26-b676-4877-ad94-8dc6fbfa719c" />
+
 *Figure 1: Excel Options menu showing active Add-ins.*
 
+
 <img width="283" height="395" alt="Fig2" src="https://github.com/user-attachments/assets/85c71e65-5833-42ed-a0b5-b2072423a817" />
+
 *Figure 2: Ensure both Solver Add-in and OpenSolver are checked.*
 
+
 <img width="1916" height="130" alt="Fig3" src="https://github.com/user-attachments/assets/5003c78f-ff06-4ffe-8881-c3fc7ce22def" />
+
 *Figure 3: Successful installation displays both tools on the Data ribbon.*
 
 ## Step 1: Geometry Extraction in AutoCAD
@@ -54,13 +58,16 @@ You must generate your geometric data using the provided AutoLISP script before 
 7. Click **Run Analysis** to compute the collapse multiplier.
 8. Navigate through the tabs to view the Thrust Line and Deformed Shape plots.
 
-<img width="823" height="679" alt="Fig4" src="https://github.com/user-attachments/assets/a90b7407-2d2c-4666-84e5-363ee8258ec1" />
+<img width="914" height="713" alt="Fig7" src="https://github.com/user-attachments/assets/7ae93d13-9967-4120-8e8e-a9caba48b3c2" />
+
 *Figure 4: The main ExcelLa interface for data import and analysis execution.*
 
-<img width="1119" height="673" alt="Fig5" src="https://github.com/user-attachments/assets/aa5486ac-d773-4c69-b067-7391a3ae040a" />
+<img width="908" height="717" alt="Fig8" src="https://github.com/user-attachments/assets/97b43f56-788f-4467-b503-cacdefcd2f4f" />
+
 *Figure 5: Generated Thrust Line showing the pressure curve within the masonry blocks.*
 
-<img width="1119" height="672" alt="Fig6" src="https://github.com/user-attachments/assets/89bb1b47-cf3d-4024-80f8-a3cba2fdc703" />
+<img width="921" height="724" alt="Fig9" src="https://github.com/user-attachments/assets/27256080-cd0b-4446-ab0c-2372dc8d39b5" />
+
 *Figure 6: Generated Deformed Shape showing the collapse mechanism and hinge locations.*
 
 ## Developer Access
@@ -74,10 +81,14 @@ If the tool stops working, verify the following system requirements:
 * **Macro Security:** Ensure Excel is configured to allow VBA macros and has access to the project object model. Go to **Trust Center Settings** > **Macro Settings**. Check "Enable VBA macros" and "Trust access to the VBA project object model".
 * **Trusted Locations:** If OpenSolver fails to run, add its extracted folder to your Excel Trusted Locations. Go to **Trust Center Settings** > **Trusted Locations** and add the path.
 
-<img width="914" height="713" alt="Fig7" src="https://github.com/user-attachments/assets/a793e3f9-95d1-4655-8fcd-fcfe4cf98e05" />
+
+<img width="1119" height="672" alt="Fig6" src="https://github.com/user-attachments/assets/58d543be-b5b8-46c9-84ca-712dafc11f58" />
+
 *Figure 7: Required Macro Settings in the Excel Trust Center.*
 
-<img width="908" height="717" alt="Fig8" src="https://github.com/user-attachments/assets/4eede1cb-5617-4b51-9502-967b8bf9add5" />
+<img width="1119" height="673" alt="Fig5" src="https://github.com/user-attachments/assets/1a0f3260-2586-4091-a8e1-0aae5895399e" />
+
+
 *Figure 8: Adding the OpenSolver folder to Trusted Locations prevents execution blocks.*
 
 * **Solver Add-in:** Verify the native Excel Solver add-in is checked in the Add-ins menu.
