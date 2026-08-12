@@ -1,7 +1,7 @@
 Attribute VB_Name = "LinearSolver"
 Option Explicit
 
-' Solves G · X = B for X using Gauss elimination with partial pivoting.
+' Solves G Â· X = B for X using Gauss elimination with partial pivoting.
 ' G is (n x n), B is (n x m) (multiple right-hand sides at once).
 ' Returns X as an (n x m) 1-based Variant array.
 ' This REPLACES WorksheetFunction.MInverse-followed-by-multiplication,
