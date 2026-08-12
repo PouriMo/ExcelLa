@@ -21,38 +21,17 @@ You must generate your geometric data using the provided AutoLISP script before 
 
 1. Open your 2D masonry arch model in AutoCAD.
 2. Ensure all blocks and backfill elements are drawn as closed LWPOLYLINE or POLYLINE entities.
-
-
 3. Type APPLOAD in the command line and load the ExcelLa.lsp file.
 4. Type ExcelLa in the command line to start the extraction routine.
-
-
 5. Click the exact center point of the arch geometry.
-
-
 6. Click a point directly on the edge of the left ground abutment.
-
-
 7. Click a point directly on the edge of the right ground abutment.
-
-
 8. Select all structural block polylines when prompted.
-
-
 9. Type "Yes" if your model includes backfill and select the backfill polylines.
-
-
 10. Enter the numerical properties for depth (mm) and specific weight (kg/m^3).
-
-
 11. Enter specific block indices if you need to apply external force vectors.
-
-
 12. Define the force vectors by typing their components or drawing them on screen.
-
-
 13. Save the resulting CSV file to your local computer.
-
 
 
 ### Step 2: Limit Analysis in Excel
