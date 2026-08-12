@@ -62,11 +62,11 @@ You must generate your geometric data using the provided AutoLISP script before 
 
 *Figure 4: The main ExcelLa interface for data import and analysis execution.*
 
-<img width="908" height="717" alt="Fig8" src="https://github.com/user-attachments/assets/97b43f56-788f-4467-b503-cacdefcd2f4f" />
+<img width="913" height="722" alt="Fig8" src="https://github.com/user-attachments/assets/aa968456-6d19-449c-87ad-c90939a5e954" />
 
 *Figure 5: Generated Thrust Line showing the pressure curve within the masonry blocks.*
 
-<img width="921" height="724" alt="Fig9" src="https://github.com/user-attachments/assets/27256080-cd0b-4446-ab0c-2372dc8d39b5" />
+<img width="917" height="724" alt="Fig9" src="https://github.com/user-attachments/assets/62db64a4-f8e8-4615-af8c-721247d96411" />
 
 *Figure 6: Generated Deformed Shape showing the collapse mechanism and hinge locations.*
 
